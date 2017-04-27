@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/sample.dir/sample.cc.o  -o ../../bin/sample  -L/home/shejiayong/LearnCoding/use_gflags/thirdparty/install/lib -rdynamic -Wl,-Bstatic -lgflags -Wl,-Bdynamic -Wl,-rpath,/home/shejiayong/LearnCoding/use_gflags/thirdparty/install/lib 
