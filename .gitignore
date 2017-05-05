@@ -1,6 +1,7 @@
 # 忽略掉所有文件名是 foo.txt的文件.
 
 foo.txt
+log.txt
 
 # 忽略所有生成的 html文件,
 
