@@ -1,4 +1,4 @@
-// test.cpp
+// test.cpp   只可使用g++方式编译通过
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
