@@ -1,14 +1,14 @@
 // average calculates the average of several numbers.
-package main
+package ch06
 
 import (
 	"fmt"
-	"github.com/headfirstgo/datafile"
+	"headFirstGoDemos/ch06/go/src/github.com/headfirstgo/datafile"
 	"log"
 )
 
-func main() {
-	numbers, err := datafile.GetFloats("data.txt")
+func Average() {
+	numbers, err := datafile.GetFloats("ch06/go/bin/data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

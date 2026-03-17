@@ -1,5 +1,9 @@
 package main
 
+import (
+	ch07 "headFirstGoDemos/ch07/go/src/github.com/headfirstgo/count"
+)
+
 func main() {
 	// ch01 chapter demos: 类型等语法基础，变量定义相关
 	// ch01.PrintConversions()
@@ -35,6 +39,14 @@ func main() {
 	// ch05.CalcAverage()
 
 	// ch06 chapter demos: 切片相关
+	// ch06.Average()
+	// ch06_2.Average2()
+
+	// ch07 chapter demos: map相关
+	ch07.CalcVote()
+
+	// ch08 chapter demos: struct相关
+	// ch08.CalcVote()
 
 	// ch13 chapter demos
 	// ch13.TestGoroutines()

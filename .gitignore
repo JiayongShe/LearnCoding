@@ -24,3 +24,7 @@ log.txt
 *.out
 
 tags
+
+# ide and compile files
+headFirstGoDemos/.idea/
+headFirstGoDemos/headFirstGoDemos

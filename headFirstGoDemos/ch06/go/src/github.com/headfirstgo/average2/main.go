@@ -1,5 +1,5 @@
 // average2 calculates the average of several numbers.
-package main
+package ch06_2
 
 import (
 	"fmt"
@@ -16,7 +16,7 @@ func average(numbers ...float64) float64 {
 	return sum / float64(len(numbers))
 }
 
-func main() {
+func Average2() {
 	arguments := os.Args[1:]
 	var numbers []float64
 	for _, argument := range arguments {

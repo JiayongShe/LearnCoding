@@ -1,13 +1,13 @@
-package main
+package ch07
 
 import (
 	"fmt"
-	"github.com/headfirstgo/datafile"
+	"headFirstGoDemos/ch07/go/src/github.com/headfirstgo/datafile"
 	"log"
 )
 
-func main() {
-	lines, err := datafile.GetStrings("votes.txt")
+func CalcVote() {
+	lines, err := datafile.GetStrings("ch07/go/bin/votes.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
